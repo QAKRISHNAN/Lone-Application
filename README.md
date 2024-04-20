@@ -1,0 +1,65 @@
+<!Doctype html>
+<html>
+    <head>
+    <title>Loan App</title>
+    <link rel="stylesheet" href="ProjectLoneBuild1.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2>Loan Application</h2>
+            </div>
+            <form action="" class="form" id="form">
+                <div class="field">
+                    <label >Customer Name</label>
+                    <input type="text" placeholder="Customer Name" id="cname">
+                    <span class="material-symbols-outlined success">check_circle</span>
+                    <span class="material-symbols-outlined error">error</span>
+                    <small>Error Message</small>
+                </div>
+
+                <div class="field">
+                    <label >Account Number</label>
+                    <input type="number" placeholder="Account Number" id="acNumber">
+                    <span class="material-symbols-outlined success">check_circle</span>
+                    <span class="material-symbols-outlined error">error</span>
+                    <small>Error Message</small>
+                </div>
+
+                <div class="field">
+                    <label >Loan Amount Requested</label>
+                    <input type="number" placeholder="Loan Amount Requested" id="Lamount">
+                    <span class="material-symbols-outlined success">check_circle</span>
+                    <span class="material-symbols-outlined error">error</span>
+                    <small>Error Message</small>
+                </div>
+
+                <div class="field">
+                    <label >Term of Loan</label>
+                    <input type="number" placeholder="Term of Loan" id="term">
+                    <span class="material-symbols-outlined success">check_circle</span>
+                    <span class="material-symbols-outlined error">error</span>
+                    <small>Error Message</small>
+                </div>
+
+                <div class="field">
+                    <label >Monthly Repayment</label>
+                    <input type="number" placeholder="Monthly Repayment" id="repayment">
+                    <span class="material-symbols-outlined success">check_circle</span>
+                    <span class="material-symbols-outlined error">error</span>
+                    <small>Error Message</small>
+                </div>
+                
+                <input type="submit" class="button" value="submit">
+            <div class="hiden">
+                <h4>Your Loan details are submitted successfully. we will update further Process</h4>
+
+            </div>
+            </form>
+
+        </div>
+        <script src="ProjectLoneBuild1.js"></script>
+    </body>
+
+</html>
